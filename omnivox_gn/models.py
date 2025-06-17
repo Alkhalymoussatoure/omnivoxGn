@@ -13,7 +13,6 @@ class Etablissement(models.Model):
         return self.nom
     
     
-    
 class Etudiant(models.Model):
     nom = models.CharField(max_length=100)
     prenom = models.CharField(max_length=100)
